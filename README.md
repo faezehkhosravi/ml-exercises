@@ -1,61 +1,24 @@
-# Machine Learning Exercises
 
-This repository contains Python code examples that demonstrate my proficiency in scientific programming and the required mathematical concepts for the Master's program in Computer Vision & Data Science.
-
-## Overview
-
-The provided code performs the following tasks:
-
-1. **Data Loading**:
-   - Loads the "Wine Quality" dataset from the UCI Machine Learning Repository.
-
-2. **Data Preprocessing**:
-   - Handles missing values by filling them with the mean of each column.
-   - Creates a new feature by dividing the 'fixed acidity' by 'volatile acidity'.
-
-3. **Exploratory Data Analysis**:
-   - Visualizes the distribution of the new feature using a histogram.
-   - Displays the correlation matrix of the dataset features.
-
-4. **Model Training**:
-   - Prepares the data for modeling by selecting features and target variable.
-   - Splits the data into training and testing sets.
-   - Trains a linear regression model on the training data.
-   - Evaluates the model using Mean Squared Error (MSE) on the test data.
-   - Visualizes the actual vs. predicted values for the test data.
-
-## Code Details
-
-The code is divided into the following sections:
-
-### Data Loading
-
-The dataset is loaded from a URL, and basic information about the dataset is displayed.
-
-### Data Preprocessing
-
-Missing values are filled with the mean of each column, and a new feature is created.
-
-### Exploratory Data Analysis
-
-The distribution of the new feature is visualized, and the correlation matrix is displayed.
-
-### Model Training
-
-The data is prepared for modeling, split into training and testing sets, and a linear regression model is trained and evaluated.
-
-## Requirements
-
+I tryed to show my capabilities in scientific programming and mathematical concepts necessary for the Master's program in Computer Vision & Data Science in this exercise.As you said, I used Python codes.
+The provided Python code performs various tasks including:
+Data Loading:Loading the "Wine Quality" dataset from the UCI Machine Learning Repository.
+Data Preprocessing:Handling missing values by filling them with the mean and Creating a new feature by dividing 'fixed acidity' by 'volatile acidity'.
+Exploratory Data Analysis:Visualizing the distribution of the new feature with a histogram and Displaying the correlation matrix.
+Model Training:
+   - Preparing data for modeling.
+   - Splitting data into training and test sets.
+   - Training a linear regression model.
+   - Evaluating the model with Mean Squared Error (MSE).
+   - Visualizing actual vs. predicted values.
+Code Details:
+ Data Loading:The dataset is loaded from a URL, and basic dataset information is displayed.
+Data Preprocessing:Missing values are handled, and a new feature is created.
+ Exploratory Data Analysis:The distribution and correlation matrix are visualized.
+ Model Training:The data is prepared, split, and a linear regression model is trained and evaluated.
+Requirements:
 - Python 3.8
 - pandas
 - numpy
 - matplotlib
 - seaborn
 - scikit-learn
-
-## Installation
-
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/ml-exercises.git
-   cd ml-exercises
